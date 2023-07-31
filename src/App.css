@@ -1,0 +1,21 @@
+#root {
+  max-width: 1280px;
+  padding: 2rem;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+body {
+  background: black;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

@@ -1,0 +1,91 @@
+.panel {
+    background: #1e242e;
+    color: wheat;
+    padding: 40px;
+    border-radius: 40px;
+    width: 350px;
+    height: fit-content;
+    text-align: left;
+}
+
+.title {
+    font-size: 32px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.desc {
+    color: rgb(166, 162, 162);
+}
+
+.desc1 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.star {
+    width: 30px;
+    height: 30px;
+    background: #292e37;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.star2 {
+    width: 100px;
+    height: 100px;
+    background: #292e37;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.rating {
+    background: #292e37;
+    color: wheat;
+    padding: 10px;
+    border-radius: 50%;
+    width: 50px;
+    border: none;
+    height: 50px;
+}
+
+.rating:focus {
+    background: rgb(220, 143, 0);
+}
+
+.rating:hover {
+    background: grey;
+}
+
+.btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 20px;
+}
+
+.submit {
+    width: 100%;
+    background: white;
+    border-radius: 10px;
+    color: rgb(220, 143, 0);
+    font-size: 18px;
+}
+
+.submit:hover {
+    color: white;
+    background: rgb(220, 143, 0);
+}
+
+.selected {
+    width: 50%;
+    margin-bottom: 5px;
+    font-size: 15px;
+    color: rgb(241, 158, 3);
+    text-align: center;
+    background: #2e343e;
+    border-radius:40px;
+    padding: 5px;
+}
